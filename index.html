@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personalized Medicine Data Collection</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Personalized Medicine Data Collection</h1>
+  </header>
+  <main>
+    <form action="submit.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br>
+
+      <label for="geneticData">Genetic Data (Upload file):</label>
+      <input type="file" id="geneticData" name="geneticData"><br>
+
+      <label for="medicalHistory">Medical History:</label>
+      <textarea id="medicalHistory" name="medicalHistory" rows="4" cols="50" required></textarea><br>
+
+      <label for="familyHistory">Family History:</label>
+      <textarea id="familyHistory" name="familyHistory" rows="4" cols="50"></textarea><br>
+
+      <label for="lifestyleFactors">Lifestyle Factors:</label>
+      <textarea id="lifestyleFactors" name="lifestyleFactors" rows="4" cols="50"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
