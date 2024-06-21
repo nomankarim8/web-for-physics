@@ -8,7 +8,6 @@ public class PatientData {
 
     // Constructors, getters, setters, and other methods
 
-
     // Add methods to save and process patient data
     public void saveToFile() {
         String data = "Name: " + name + "\nDate of Birth: " + dob + "\nGenetic Data: " + geneticData + "\nMedical History:\n"
