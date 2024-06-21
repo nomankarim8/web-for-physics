@@ -82,4 +82,5 @@ public class SubmitHandler {
         // Save to database instead of file
         patientData.saveToDatabase();
     }
+    
 }
